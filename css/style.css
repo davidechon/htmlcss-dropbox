@@ -127,10 +127,32 @@ nav ul li a{
   margin: 10px 0;
 }
 
-
 /* Main */
 main {
-  border: 1px solid red;
+}
+/* Plans */
+#plans h1 {
+  text-align: center;
+  font-weight: 800;
+}
+.choice p {
+  margin: 20px 10px 40px;
+  display: inline-block;
+}
+.fa-circle-dot {
+  color: #0161ff;
+  margin: 0 10px;
+}
+
+.col .col-txt .col-title {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 0 5px;
+}
+.col .col-txt p{
+  color: #858585;
+  font-weight: 300;
+  line-height: 1.2em;
 }
 
 /* Footer */
