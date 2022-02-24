@@ -1,0 +1,15 @@
+/* Debug */
+.debug{
+  background-color: lime;
+  width: 100px;
+  height: 100px;
+  border: 1px solid lime;
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* */
