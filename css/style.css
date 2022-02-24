@@ -3,7 +3,7 @@
   /* background-color: lime;
   width: 100px;
   height: 100px; */
-  border: 1px solid lime;
+  border: 1px solid red;
 }
 /* Reset */
 * {
@@ -21,6 +21,11 @@
 /* General */
 body { 
   width: 1200px;
+  margin: 0 auto;
+}
+
+.container-100{
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -42,42 +47,35 @@ body {
   float: right;
   text-align: end;
 }
+
 /* Header */
-header {
-  border: 1px solid blue;
-  /* line-height: 80px; */
-  width: 100%;
+header{
+  
 }
-/* Navbar */
-nav {
-  /* width: 100%; */
+nav .logo, nav ul{
+  float: left;
 }
-nav img{
-  width: 10%;
-  display: inline-block;
+nav .logo img{
   vertical-align: middle;
-  margin: 0 20px;
-  border: 1px solid red;
+}
+nav img {
+  padding: 20px 10px;
 }
 nav ul {
   list-style-type: none;
-  font-weight: 600;
-  text-transform: uppercase;
-  /* border: 1px solid blue; */
-  
+  text-align: center;
 }
 nav ul li {
   display: inline-block;
-  text-transform: uppercase; 
-   border: 1px solid teal;
+  padding: 25px 10px;
+  font-weight: 600;
+  font-size: 16px;
 }
 nav ul li a{
   text-decoration: none;
-  margin: 0 20px;
   color: black;
-  border: 1px solid darkorange;
-}
 
+}
 
 /* Jumbotron */
 .jumbotron {
