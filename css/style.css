@@ -28,6 +28,10 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+.container-80{
+  width: 80%;
+  margin: 0 auto;
+}
 
 /* Column */
 .col {
@@ -49,9 +53,6 @@ body {
 }
 
 /* Header */
-header{
-  
-}
 nav .logo, nav ul{
   float: left;
 }
@@ -79,8 +80,37 @@ nav ul li a{
 
 /* Jumbotron */
 .jumbotron {
-  margin: 50px;
+  background-color: #b4d0e7;
 }
+.jumbotron h1{
+  text-align: rigth;
+  font-size: 50px;
+  color: black;
+  padding: 10px;
+  border: 1px solid red;
+}
+.jumbotron p{
+  width: 40%;
+  margin: 20px 0;
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  border: 1px solid red;
+}
+.jumbotron img, .btn, .arrow-down {
+  border: 1px solid red;
+}
+
+.jumbotron img{
+  width: 50%;
+  float: right;
+  margin-top: -22%;
+  margin-right: 10%; 
+  object-fit: cover;
+  /* z-index: 1; */
+}
+
+
 /* Main */
 main {
   border: 1px solid red;
