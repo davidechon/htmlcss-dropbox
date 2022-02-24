@@ -12,12 +12,77 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+/* General */
+body { 
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Column */
+.col {
+  float: left;
+  width: 20%;
+}
+.col-center {
+  width: 60%;
+  padding: 0 20px;
+}
+
+.left {
+  float: left;
+  text-align: start;
+}
+.right {
+  float: right;
+  text-align: end;
+}
 /* Header */
 header {
   border: 1px solid blue;
+  /* line-height: 80px; */
+  width: 100%;
+}
+/* Navbar */
+nav {
+  /* width: 100%; */
+}
+nav img{
+  width: 10%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 20px;
+  border: 1px solid red;
+}
+nav ul {
+  list-style-type: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* border: 1px solid blue; */
+  
+}
+nav ul li {
+  display: inline-block;
+  text-transform: uppercase; 
+   border: 1px solid teal;
+}
+nav ul li a{
+  text-decoration: none;
+  margin: 0 20px;
+  color: black;
+  border: 1px solid darkorange;
 }
 
+
+/* Jumbotron */
+.jumbotron {
+  margin: 50px;
+}
 /* Main */
 main {
   border: 1px solid red;
