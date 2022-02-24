@@ -1,8 +1,8 @@
 /* Debug */
 .debug{
-  background-color: lime;
+  /* background-color: lime;
   width: 100px;
-  height: 100px;
+  height: 100px; */
   border: 1px solid lime;
 }
 /* Reset */
@@ -13,4 +13,17 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-/* */
+/* Header */
+header {
+  border: 1px solid blue;
+}
+
+/* Main */
+main {
+  border: 1px solid red;
+}
+
+/* Footer */
+footer {
+  border: 1px solid green;
+}
