@@ -71,32 +71,28 @@ header {
 }
 
 nav{
-  /* position: fixed; */
-  display: inline;
-  line-height: 80px;
+  position: fixed;
+  padding: 10px 20px;
+  background-color: white;
+  line-height: 60px;
   z-index:1000;
-  border: 1px solid green;
 }
 nav ul {
-  border: 1px solid blue;
   display: inline;
 }
 
 nav ul li {
- list-style-type: none;
- display: inline-block;
- text-decoration: none;
- border: 1px solid red;
+  padding: 0 20px;
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
 }
 nav ul li a{
  text-decoration: none;
 }
 .logo{
-  border: 1px solid red;
   line-height: 80px;
   vertical-align: middle;
-  
-  
 }
 
 
