@@ -65,9 +65,11 @@ body {
   text-decoration: none;
   padding: 5px 10px;
 }
+
 /* Header */
 header {
   margin-bottom: 100px;
+  position: relative;
 }
 
 nav{
@@ -94,44 +96,40 @@ nav ul li a{
   line-height: 80px;
   vertical-align: middle;
 }
-
-
-
-
-
-
-/* **************************** */
-
-/* nav{
-  display: fixed;
-}
-nav .logo, nav ul{
-  float: left;
-}
-nav .logo img{
-  vertical-align: middle;
-}
-nav img {
-  padding: 20px 10px;
-}
-nav ul {
-  list-style-type: none;
-  text-align: center;
-}
-nav ul li {
-  display: inline-block;
-  padding: 25px 10px;
-  font-weight: 600;
-  font-size: 16px;
-}
-nav ul li a{
-  text-decoration: none;
-  color: black;
-
-} */
-/* **************************** */
 /* Jumbotron */
 .jumbotron {
+    display: inline-block;
+    width: 100%;
+    margin: 130px auto;
+    padding-top: 30px;
+    background-color: #b4d0e7;
+    text-align: center;
+}
+.jumbotron .container{
+  border: 1px solid green;
+
+} 
+.jumbotron h1 {
+  text-align: left;
+  font-size: 55px;
+  border: 1px solid yellow;
+}
+.jumbotron .row {
+  margin: 0;
+  border: 1px solid blue;
+}
+.col-sx{
+  width: Calc(100% - 60%);
+  padding: 20px;
+  padding-left: 0;
+  text-align: left;
+
+}
+
+/* **************************** */
+
+/* Jumbotron */
+/* .jumbotron {
   background-color: #b4d0e7;
 }
 .jumbotron h1{
@@ -167,8 +165,9 @@ nav ul li a{
 .fa-arrow-down {
   font-size: 40px;
   margin: 10px 0;
-}
+} */
 
+/* **************************** */
 /* Main */
 
 /* Plans */
