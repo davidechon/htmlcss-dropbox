@@ -102,146 +102,52 @@ nav ul li a{
   vertical-align: middle;
 }
 /* Jumbotron */
-.jumbotron {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  margin: 120px auto;
+.container{
   background-color: #b4d0e7;
-  text-align: center;
-  border: 1px solid red;
+  margin-top: 80px;
+  margin-bottom:150px;
 }
-.jumbotron .container-80{
-  border: 1px solid green;
-  display: block;
-
-} 
-.jumbotron h1 {
+.jumbotron-title{
   text-align: left;
   font-size: 55px;
-  border: 1px solid yellow;
+  padding-top: 50px;
 }
-.jumbotron .row {
-  margin: 0;
-  width: 100%;;
-  border: 1px solid blue;
+
+.row{
+  margin: 50px auto;
+  max-width: 80%;
+  min-height: 300px;
+  position: relative;
 }
 .col-sx{
-  width: Calc(100% - 60%);
-  display: block;
-  padding: 20px;
-  padding-left: 0;
-  text-align: left;
-  border: 1px solid yellow;
-
+  width: Calc(100% - 70%);
+  float: left;
 }
-.jumbotron .botton {
-  border: 1px solid green;
-  width: 40%;
-  text-align: left;
-
-}
-.jumbotron .btn {
-  border: 1px solid red;
-  display: block;
-  padding: 10px;
-  
-}
-.jumbotron .text {
-  border: 1px solid red;
+.text {
   padding: 10px 0;
   font-size: 12px;
 }
 
 .col-dx{
-  width: Calc(100% - 40%);
-  max-width: 100%;
-  float: right;
-  border: 1px solid yellow;
-  
-
-}
-/* **************************** */
-/* Test */
-.container-test{
-  background-color: #b4d0e7;
-  border: 1px solid green;
-
-}
-.jumbotron-title{
-  text-align: left;
-  font-size: 55px;
-  border: 1px solid yellow;
-}
-.row-test{
-  margin: 50px auto;
-  max-width: 80%;
-  min-height: 300px;
-  border: 1px solid red;
-
-}
-.col-sx-test{
-  width: Calc(100% - 70%);
-  float: left;
-  border: 1px solid blue;
-
-}
-.col-dx-test{
   width: Calc(100% - 30%);
-  border: 1px solid green;
   float: right;
   padding-left: 50px;
-
 }
-.col-dx-test img{
-  margin-top: 50px;
+.col-dx img{
   max-width: 100%;
-  border: 1px solid red;
+  position: relative;
+  bottom: -130px;
 }
-
+.jumbotron-botton {
+  margin-top: 50px;
+  display: block;
+  text-align: left;
+}
 
 /* **************************** */
 
-/* Jumbotron */
-/* .jumbotron {
-  background-color: #b4d0e7;
-}
-.jumbotron h1{
-  text-align: left;
-  font-size: 50px;
-  color: black;
-  padding: 0 0 0 30px;
-}
-.jumbotron p{
-  width: 35%;
-  margin: 20px 0 30px;
-  text-align: left;
-  color: black;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.jumbotron img{
-  width: 50%;
-  float: right;
-  margin-top: -22%;
-  margin-right: 10%; 
-  /* object-fit: cover; */
-}
-.jumbotron .btn {
-  background-color: #0161ff;
-  color: white;
-  text-decoration: none;
-  margin: 40px 0;
-  padding: 10px 20px;
-}
-
-.fa-arrow-down {
-  font-size: 40px;
-  margin: 10px 0;
-} */
-
 /* **************************** */
+
 /* Main */
 
 /* Plans */
@@ -270,12 +176,12 @@ nav ul li a{
 }
 
 /* Partners */
-.row {
+.row-parners {
   border: 1px solid green;
   width: 80%;
   margin: 50px auto;
 }
-.row img {
+.row-parners img {
   max-width: 50%;
   object-fit: cover;
   border: 1px solid blue;
