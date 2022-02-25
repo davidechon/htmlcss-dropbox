@@ -73,7 +73,7 @@ a{
 
 /* Header */
 header {
-  margin-bottom: 100px;
+  
   position: relative;
 }
 
@@ -132,6 +132,7 @@ nav ul li a{
   padding: 20px;
   padding-left: 0;
   text-align: left;
+  border: 1px solid yellow;
 
 }
 .jumbotron .botton {
@@ -151,6 +152,53 @@ nav ul li a{
   padding: 10px 0;
   font-size: 12px;
 }
+
+.col-dx{
+  width: Calc(100% - 40%);
+  max-width: 100%;
+  float: right;
+  border: 1px solid yellow;
+  
+
+}
+/* **************************** */
+/* Test */
+.container-test{
+  background-color: #b4d0e7;
+  border: 1px solid green;
+
+}
+.jumbotron-title{
+  text-align: left;
+  font-size: 55px;
+  border: 1px solid yellow;
+}
+.row-test{
+  margin: 50px auto;
+  max-width: 80%;
+  min-height: 300px;
+  border: 1px solid red;
+
+}
+.col-sx-test{
+  width: Calc(100% - 70%);
+  float: left;
+  border: 1px solid blue;
+
+}
+.col-dx-test{
+  width: Calc(100% - 30%);
+  border: 1px solid green;
+  float: right;
+  padding-left: 50px;
+
+}
+.col-dx-test img{
+  margin-top: 50px;
+  max-width: 100%;
+  border: 1px solid red;
+}
+
 
 /* **************************** */
 
