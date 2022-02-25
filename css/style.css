@@ -49,16 +49,13 @@ body {
 
 .left {
   float: left;
-  text-align: start;
 }
 .center {
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid lightgrey;
 }
 .right {
   float: right;
-  text-align: end;
 }
 
 /* Botton */
@@ -74,20 +71,32 @@ header {
 }
 
 nav{
-  display:fixed;
+  /* position: fixed; */
+  display: inline;
   line-height: 80px;
   z-index:1000;
+  border: 1px solid green;
 }
+nav ul {
+  border: 1px solid blue;
+  display: inline;
+}
+
 nav ul li {
  list-style-type: none;
  display: inline-block;
  text-decoration: none;
+ border: 1px solid red;
 }
 nav ul li a{
  text-decoration: none;
 }
-.logo {
-  border: 1px solid blue;
+.logo{
+  border: 1px solid red;
+  line-height: 80px;
+  vertical-align: middle;
+  
+  
 }
 
 
