@@ -20,7 +20,7 @@
 
 /* General */
 body { 
-  width: 1200px;
+  min-width: 1200px;
   margin: 0 auto;
 }
 
@@ -72,6 +72,34 @@ body {
 header {
   margin-bottom: 100px;
 }
+
+nav{
+  display:fixed;
+  line-height: 80px;
+  z-index:1000;
+}
+nav ul li {
+ list-style-type: none;
+ display: inline-block;
+ text-decoration: none;
+}
+nav ul li a{
+ text-decoration: none;
+}
+.logo {
+  border: 1px solid blue;
+}
+
+
+
+
+
+
+/* **************************** */
+
+/* nav{
+  display: fixed;
+}
 nav .logo, nav ul{
   float: left;
 }
@@ -95,8 +123,8 @@ nav ul li a{
   text-decoration: none;
   color: black;
 
-}
-
+} */
+/* **************************** */
 /* Jumbotron */
 .jumbotron {
   background-color: #b4d0e7;
@@ -163,6 +191,18 @@ nav ul li a{
   line-height: 1.2em;
 }
 
+/* Partners */
+.row {
+  border: 1px solid green;
+  width: 80%;
+  margin: 50px auto;
+}
+.row img {
+  max-width: 50%;
+  object-fit: cover;
+  border: 1px solid blue;
+  float: left;
+}
 
 /* Footer */
 footer {
