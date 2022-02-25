@@ -196,6 +196,20 @@ nav ul li a{
   text-align: center;
   border: 1px solid grey;
 }
+article {
+  padding: 20px;
+  text-align: left;
+  line-height: 2.6;
+  font-size: medium;
+  border: 1px solid red;
+}
+article .fa-regular, article .fa-solid {
+  margin-right: 4px;
+}
+
+
+
+
 /* **************************** */
 
 /* Plans */
