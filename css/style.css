@@ -165,7 +165,6 @@ nav ul li a{
   padding-bottom: 40px;
 }
 .fatturazione {
-  border: 1px solid green;
   line-height: 20px;
 }
 .fatturazione ul {
@@ -194,14 +193,14 @@ nav ul li a{
 .col-plans {
   width: Calc((100% / 3) - 40px);
   float: left;
+  border: 1px solid grey;
 }
 .col-plans-center {
-  border: 1px solid violet;
   margin: 0 60px;
 }
 .col-title{
   text-align: center;
-  border: 1px solid grey;
+  border-bottom: 1px solid grey;
   font-size: 16px;
   font-weight: 400;
   padding: 10px;
@@ -211,7 +210,6 @@ article {
   text-align: left;
   line-height: 2.6;
   font-size: medium;
-  border: 1px solid red;
 }
 article .fa-regular, article .fa-solid {
   margin-right: 4px;
@@ -231,29 +229,31 @@ ul li{
   font-size: 14px;
   font-weight: 400;
   padding-bottom: 30px;
-  /* border: 1px solid blue; */
 
 }
 .list-intro{
   margin-bottom: 30px;
-  border: 1px solid red;
 }
 .title-plan{
   font-size: 22px;
   font-weight: 900;
-  border: 1px solid red;
 }
 .price{
   font-size: 16px;
   font-weight: 800;
-  border: 1px solid red;
 }
 ul li.line{
   font-size: 200;
   color: lightgrey;
 }
-
-
+.fa-check{
+  color: #0161ff;
+}
+/* .prova-link{
+  color: #0161ff;
+  text-decoration: underline;
+  border: 1px solid green;
+} */
 
 
 /* **************************** */
