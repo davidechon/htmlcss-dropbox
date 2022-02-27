@@ -272,27 +272,43 @@ p.text-team{
   width: 80%;
   font-size: 14px;
 }
-/* **************************** */
 
-/* Plans */
-
-
-/* **************************** */
 
 /* Partners */
 .row-partners {
-  border: 1px solid green;
   width: 80%;
   margin: 50px auto;
 }
-.row-parners img {
-  max-width: 50%;
+.row-partners img {
+  width: 50%;
+  max-height: 500px;
   object-fit: cover;
-  border: 1px solid blue;
   float: left;
 }
+.col-partners{
+  padding-top: 50px;
+  padding-left: 50px;
+  width: 50%;
+  float: left;
+}
+.partners-title{
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.partners-text{
+  line-height: 2;
+  margin-bottom: 30px;
+}
+.partners-btn{
+  padding: 10px;
+  border: 1px solid black;
+}
+/* **************************** */
+
+/*  */
 
 
+/* **************************** */
 
 
 
