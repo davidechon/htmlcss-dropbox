@@ -305,8 +305,31 @@ p.text-team{
 }
 /* **************************** */
 
-/*  */
+/* Opeation - Cards */
+.row-cards{
+  width: 80%;
+  margin: 50px auto;
+}
+.cards{
+}
+.card{
+  width: Calc(100% / 3);
+  float: left;
+  padding: 50px 10px 0;
+  min-height: 485px;
+}
+.card-title{
+  margin: 20px 0;
+}
+.card-text{
+  font-size: 12px;
+  line-height: 1.2;
+}
+.card-img{
+  max-height: 230px;
 
+  
+}
 
 /* **************************** */
 
