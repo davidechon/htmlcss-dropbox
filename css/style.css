@@ -77,7 +77,6 @@ a{
 
 /* Header */
 header {
-  
   position: relative;
 }
 
@@ -87,6 +86,7 @@ nav{
   background-color: white;
   line-height: 60px;
   z-index:1000;
+  border: 1px solid red;
 }
 nav ul {
   display: inline;
@@ -102,7 +102,7 @@ nav ul li a{
  text-decoration: none;
 }
 .logo{
-  line-height: 80px;
+  line-height: 60px;
   vertical-align: middle;
 }
 /* Jumbotron */
@@ -110,11 +110,13 @@ nav ul li a{
   background-color: #b4d0e7;
   margin-top: 80px;
   margin-bottom:150px;
+  border: 1px solid red;
 }
 .jumbotron-title{
   text-align: left;
   font-size: 55px;
-  padding-top: 50px;
+  margin: 50px 0;
+  border: 1px solid green;
 }
 
 .row{
@@ -122,25 +124,31 @@ nav ul li a{
   max-width: 80%;
   min-height: 300px;
   position: relative;
+  border: 1px solid red;
 }
 .col-sx{
   width: Calc(100% - 70%);
   float: left;
+  border: 1px solid red;
 }
 .text {
+  margin-top: 50px;
   padding: 10px 0;
   font-size: 12px;
+  border: 1px solid red;
 }
 
 .col-dx{
   width: Calc(100% - 30%);
   float: right;
   padding-left: 50px;
+  border: 1px solid red;
 }
 .col-dx img{
   max-width: 100%;
   position: relative;
   bottom: -130px;
+  border: 1px solid red;
 }
 .jumbotron-botton {
   margin-top: 50px;
@@ -184,7 +192,6 @@ nav ul li a{
   width: 100%;
 }
 .col-plans {
-  /* border: 1px solid blue; */
   width: Calc((100% / 3) - 40px);
   float: left;
 }
@@ -195,6 +202,9 @@ nav ul li a{
 .col-title{
   text-align: center;
   border: 1px solid grey;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
 }
 article {
   padding: 20px;
@@ -207,6 +217,42 @@ article .fa-regular, article .fa-solid {
   margin-right: 4px;
 }
 
+.type-plan{
+  /* border: 1px solid teal; */
+}
+.piano-dati{
+  /* border: 1px solid green; */
+}
+ul{
+  list-style-type: none;
+  line-height: 1.8;
+}
+ul li{
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  /* border: 1px solid blue; */
+
+}
+.list-intro{
+  margin-bottom: 30px;
+  border: 1px solid red;
+}
+.title-plan{
+  font-size: 22px;
+  font-weight: 900;
+  border: 1px solid red;
+}
+.price{
+  font-size: 16px;
+  font-weight: 800;
+  border: 1px solid red;
+}
+ul li.line{
+  font-size: 200;
+  color: lightgrey;
+}
+
 
 
 
@@ -214,32 +260,6 @@ article .fa-regular, article .fa-solid {
 
 /* Plans */
 
-/* #plans .container {
-  padding-top: 200px;
-}
-#plans h1 {
-  text-align: center;
-  font-weight: 800;
-}
-.choice p {
-  margin: 20px 10px 40px;
-  display: inline-block;
-}
-.fa-circle-dot {
-  color: #0161ff;
-  margin: 0 10px;
-}
-
-.col .col-txt .col-title {
-  font-size: 18px;
-  font-weight: 400;
-  padding: 15px 0 5px;
-}
-.col .col-txt p{
-  color: #858585;
-  font-weight: 300;
-  line-height: 1.2em;
-} */
 
 /* **************************** */
 
@@ -255,6 +275,10 @@ article .fa-regular, article .fa-solid {
   border: 1px solid blue;
   float: left;
 }
+
+
+
+
 
 /* Footer */
 footer {
