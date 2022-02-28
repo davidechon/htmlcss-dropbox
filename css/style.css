@@ -328,40 +328,67 @@ p.text-team{
 
 /* ************************************* */
 .row-box-01{
-  border: 1px solid violet;
-  /* max-height: 1615px;
-  min-height: 486px; */
   min-width: 970px;
   width: 100%;
   margin: 50px auto;
+
+  background-color: #fafafa;
 }
 .col-01{
   float:left;
   min-height: 480px;
-  width: Calc((100% - 40px) / 3); 
-  border: 1px solid blue;
+  width: Calc((100% - 40px) / 3);
 }
 .col-center-01{
   margin: 0 20px;
-  border: 1px solid violet;
+}
+.logo-box{
+  width: 30%;
+  padding: 50px 0 30px;
+  border-bottom: 1px solid lightgrey;
+}
+.text-box{
+  padding: 50px 0;
 }
 .box-01{
   float: left;
   width: 50%;
   min-height: 240px;
   position: relative;
-  border: 1px solid red;
-
-  background-color: violet;
 }
 .box-01 img{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 90%;
+  width: 70%;
   filter: invert(1);
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+}
+.designit {
+  background-color: #98cd90;
+  border: 10px solid #cae5c6;
+}
+.arizona {
+  background-color: #560926;
+}
+.florida {
+  background-color: #0088c7;
+ }
+.topps {
+  background-color: #ff191b;
+}
+.world-bicycle {
+  background-color: #cf001d;
+}
+.hearst {
+  background-color: #abcae3;
+}
+.lonely {
+  background-color: #0f2176;
+}
+.clear-channel {
+  background-color: #fed12b;
 }
 /* ************************************* */
 
