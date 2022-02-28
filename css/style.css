@@ -314,24 +314,26 @@ p.text-team{
 
 /* Stories - box col */
 .row-stories{
-  width: 80%;
+  width: 65%;
   margin: 0 auto; 
 }
 .stories-title{
   margin: 0 0 30px;
+  font-size: 40px;
 }
 .stories-link{
-  border: 1px solid red;
   margin: 20px 0 50px;
   display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: blue;
+  text-decoration: underline;
 }
 
-/* ************************************* */
 .row-box-01{
   min-width: 970px;
   width: 100%;
   margin: 50px auto;
-
   background-color: #fafafa;
 }
 .col-01{
@@ -341,10 +343,13 @@ p.text-team{
 }
 .col-center-01{
   margin: 0 20px;
+  max-height: 480px;
+  padding: 30px 20px;
+  overflow-y: scroll;
 }
 .logo-box{
   width: 30%;
-  padding: 50px 0 30px;
+  padding: 0 0 30px;
   border-bottom: 1px solid lightgrey;
 }
 .text-box{
@@ -392,56 +397,6 @@ p.text-team{
 }
 /* ************************************* */
 
-.row-box{
-  width: 100%;
-  margin: 0 auto; 
-}
-.col-box-left{
-  width: 25%;
-  float: left;
-}
-.col-box-center{
-padding: 20px;
-width: 50%;
-float: left;
-height: 300px;
-}
-.col-box-right{
-  width: 25%;
-  float: right;
-}
-
-.box-img{
-  width: 50%;
-  height: 50%;
-  float: left;
-}
-/* .square{
-  width: 240px;
-  height: 240px;
-} */
-.box-img img{
-  max-width: 100%;
-  color: white;
-}
-.negative{
-  filter:invert(1);
-}
-#designit {
-  background-color: #98cd90;
-  border: 10px solid #cae5c6;
-  padding: 10px;
-}
-#arizona {
-  background-color: #560926;
-  color: white;
-}
-#florida {
-  background-color: #0088c7;
- }
-#topps {
-  background-color: #ff191b;
-}
 
 
 
