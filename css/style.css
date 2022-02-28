@@ -397,8 +397,35 @@ p.text-team{
 }
 /* ************************************* */
 
+/* Business */
 
+.business{
+  background-color: #abcae3;
+  color: #560926;
+  min-height: 360px;
+  position: relative;
+}
 
+.row-business{
+  width: 65%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin: 0 auto; */
+  /* padding-top: 50px; */
+}
+.business-title{
+  display: inline-block;
+  font-size: 40px;
+}
+.business-link{
+  background-color: white;
+  padding: 10px 50px;
+  float: right;
+  font-size: 16px;
+  font-weight: 600;
+}
 
 
 
