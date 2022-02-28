@@ -321,7 +321,25 @@ p.text-team{
   margin: 0 0 30px;
 }
 .stories-link{
+  border: 1px solid red;
+  margin: 20px 0 50px;
+  display: block;
 }
+
+/* ************************************* */
+.row-box-01{
+  border: 10px solid green;
+  max-height: 1615px;
+  max-height: 486px;
+  margin: 50px auto;
+}
+.col-01{
+  float:left;
+  margin: 0 auto;
+  border: 1px solid blue;
+  height: 486px;
+}
+/* ************************************* */
 
 .row-box{
   width: 100%;
@@ -343,35 +361,35 @@ height: 300px;
 }
 
 .box-img{
-  width: 30%;
-  height: 30vw;
+  width: 50%;
+  height: 50%;
   float: left;
 }
+/* .square{
+  width: 240px;
+  height: 240px;
+} */
 .box-img img{
-  max-height: 50%;
-  padding: 0;
-  width: 150px;
-  height: 150px;
+  max-width: 100%;
+  color: white;
+}
+.negative{
+  filter:invert(1);
 }
 #designit {
   background-color: #98cd90;
   border: 10px solid #cae5c6;
-  filter:invert(1);
+  padding: 10px;
 }
 #arizona {
-  color: white;
   background-color: #560926;
-  filter:invert(1);
+  color: white;
 }
 #florida {
-  color: white;
   background-color: #0088c7;
-  filter:invert(1);
-}
+ }
 #topps {
-  color: white;
   background-color: #ff191b;
-  
 }
 
 
