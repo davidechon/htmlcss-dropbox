@@ -108,6 +108,7 @@ nav ul li a{
 .container-jumbotron{
   background-color: #b4d0e7;
   margin-top: 80px;
+  min-height: 600px;
   margin-bottom:150px;
 }
 .jumbotron-title{
@@ -119,7 +120,7 @@ nav ul li a{
 .row{
   margin: 50px auto;
   max-width: 80%;
-  min-height: 300px;
+  /* min-height: 400px; */
   position: relative;
 }
 .col-sx{
@@ -138,10 +139,11 @@ nav ul li a{
   padding-left: 50px;
 }
 .col-dx img{
-  max-width: 100%;
-  position: relative;
-  bottom: -130px;
+  max-width: 800px;
+  max-height: 470px;
+  position: absolute;
 }
+
 .jumbotron-botton {
   margin-top: 50px;
   display: block;
@@ -446,11 +448,6 @@ h1.faq-title{
   
 }
 
-
-/* **************************** */
-
-
-
 /* Footer */
 footer {
   border: 1px solid green;
@@ -489,39 +486,3 @@ footer ul li{
 .flag-footer ul.flag-footer-menu li{
   display: inline-block;
 }
-/****************************************/
-/* .row-stories{
-  width: 65%;
-  margin: 0 auto; 
-}
-.stories-title{
-  margin: 0 0 30px;
-  font-size: 40px;
-}
-.stories-link{
-  margin: 20px 0 50px;
-  display: block;
-  font-size: 16px;
-  font-weight: 600;
-  color: blue;
-  text-decoration: underline;
-}
-
-.row-box-01{
-  min-width: 970px;
-  width: 100%;
-  margin: 50px auto;
-  background-color: #fafafa;
-}
-.col-01{
-  border: 1px solid red;
-  float:left;
-  min-height: 480px;
-  width: Calc((100% - 40px) / 5);
-}
-.col-center-01{
-  margin: 0 20px;
-  max-height: 480px;
-  padding: 30px 20px;
-  overflow-y: scroll;
-} */
