@@ -149,7 +149,9 @@ nav ul li a{
 }
 
 /* Main */
-
+main{
+  margin: 50px 0 100px;
+}
 /* **************************** */
 /* Plans-test */
 
@@ -423,35 +425,28 @@ p.text-team{
   font-size: 16px;
   font-weight: 600;
 }
-/* ************************************* */
 
 /* Faq */
 .faq{
-  border: 1px solid red;
   margin: 50px auto;
   width: 65%;
 }
-.faq-title{
-  border: 1px solid blue;
+h1.faq-title{
   padding: 100px 0 60px;
   border-bottom: 1px solid lightgrey;
-  font-size: 24px;
+  font-size: 40px;
 }
 .faq-quest ul li{
-  border: 1px solid red;
+  border-bottom: 1px solid lightgrey;
   padding: 40px 0;
   font-size: 18px;
+  font-weight: bold;
 }
 .faq-quest .fa-angle-down{
-  border: 1px solid blue;
   float: right;
   padding-right: 50px;
-  font-size: 20px;
+  
 }
-
-
-
-
 
 
 /* **************************** */
