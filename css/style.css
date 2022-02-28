@@ -328,16 +328,28 @@ p.text-team{
 
 /* ************************************* */
 .row-box-01{
-  border: 10px solid green;
-  max-height: 1615px;
-  max-height: 486px;
+  border: 1px solid violet;
+  /* max-height: 1615px;
+  min-height: 486px; */
+  min-width: 970px;
+  width: 100%;
   margin: 50px auto;
 }
 .col-01{
   float:left;
-  margin: 0 auto;
+  min-height: 480px;
+  width: Calc((100% - 40px) / 3); 
   border: 1px solid blue;
-  height: 486px;
+}
+.col-center-01{
+  margin: 0 20px;
+  border: 1px solid violet;
+}
+.box-01{
+  float: left;
+  width: 50%;
+  min-height: 240px;
+  border: 1px solid red;
 }
 /* ************************************* */
 
