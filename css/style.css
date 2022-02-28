@@ -349,7 +349,19 @@ p.text-team{
   float: left;
   width: 50%;
   min-height: 240px;
+  position: relative;
   border: 1px solid red;
+
+  background-color: violet;
+}
+.box-01 img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  filter: invert(1);
+  border: 1px solid blue;
 }
 /* ************************************* */
 
