@@ -395,17 +395,14 @@ p.text-team{
 .clear-channel {
   background-color: #fed12b;
 }
-/* ************************************* */
 
 /* Business */
-
 .business{
   background-color: #abcae3;
   color: #560926;
   min-height: 360px;
   position: relative;
 }
-
 .row-business{
   width: 65%;
   position: absolute;
@@ -426,6 +423,33 @@ p.text-team{
   font-size: 16px;
   font-weight: 600;
 }
+/* ************************************* */
+
+/* Faq */
+.faq{
+  border: 1px solid red;
+  margin: 50px auto;
+  width: 65%;
+}
+.faq-title{
+  border: 1px solid blue;
+  padding: 100px 0 60px;
+  border-bottom: 1px solid lightgrey;
+  font-size: 24px;
+}
+.faq-quest ul li{
+  border: 1px solid red;
+  padding: 40px 0;
+  font-size: 18px;
+}
+.faq-quest .fa-angle-down{
+  border: 1px solid blue;
+  float: right;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+
 
 
 
