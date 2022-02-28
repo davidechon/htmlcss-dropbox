@@ -411,8 +411,6 @@ p.text-team{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* margin: 0 auto; */
-  /* padding-top: 50px; */
 }
 .business-title{
   display: inline-block;
@@ -456,4 +454,74 @@ h1.faq-title{
 /* Footer */
 footer {
   border: 1px solid green;
+  background-color: black;
+  color: white;
+  min-height: 500px;
 }
+.row-footer{
+  width: 65%;
+  margin: 100px auto;
+}
+.col-footer{
+  float:left;
+  min-height: 300px;
+  width: Calc((100% - 100px) / 5);
+  margin: 0 10px;
+}
+.border-col-footer{
+  border-bottom: 1px solid white;
+}
+.footer-title{
+  margin: 20px 0;
+  font-size: 20px;
+}
+footer ul li{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+/* Flag Footer */ 
+.flag-footer{
+  width: 65%;;
+  margin: 100px auto;
+  padding: 10px;
+}
+.flag-footer ul.flag-footer-menu li{
+  display: inline-block;
+}
+/****************************************/
+/* .row-stories{
+  width: 65%;
+  margin: 0 auto; 
+}
+.stories-title{
+  margin: 0 0 30px;
+  font-size: 40px;
+}
+.stories-link{
+  margin: 20px 0 50px;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: blue;
+  text-decoration: underline;
+}
+
+.row-box-01{
+  min-width: 970px;
+  width: 100%;
+  margin: 50px auto;
+  background-color: #fafafa;
+}
+.col-01{
+  border: 1px solid red;
+  float:left;
+  min-height: 480px;
+  width: Calc((100% - 40px) / 5);
+}
+.col-center-01{
+  margin: 0 20px;
+  max-height: 480px;
+  padding: 30px 20px;
+  overflow-y: scroll;
+} */
