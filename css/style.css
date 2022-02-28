@@ -49,6 +49,7 @@ body {
 .col-center {
   width: 60%;
   padding: 0 20px;
+  border: 1px solid red;
 }
 
 .left {
@@ -215,13 +216,6 @@ article {
 article .fa-regular, article .fa-solid {
   margin-right: 4px;
 }
-
-.type-plan{
-  /* border: 1px solid teal; */
-}
-.piano-dati{
-  /* border: 1px solid green; */
-}
 h1.title-plans{
   font-size: 40px;
 }
@@ -310,8 +304,7 @@ p.text-team{
   width: 80%;
   margin: 50px auto;
 }
-.cards{
-}
+
 .card{
   width: Calc(100% / 3);
   float: left;
@@ -330,6 +323,91 @@ p.text-team{
 
   
 }
+
+/* **************************** */
+
+/* Stories - box col */
+.row-stories{
+  border: 1px solid red;
+  width: 80%;
+  margin: 0 auto; 
+}
+.stories-title{
+  border: 1px solid blue;
+  margin: 0 0 30px;
+
+}
+.stories-link{
+  border: 1px solid red;
+}
+
+.row-box{
+  border: 1px solid lime;
+  width: 100%;
+  margin: 0 auto; 
+}
+.col-box-left{
+  border: 1px solid blue;
+  width: 25%;
+  float: left;
+}
+.col-box-center{
+border: 10px solid red;
+padding: 20px;
+width: 50%;
+float: left;
+height: 300px;
+
+}
+.col-box-right{
+  border: 10px solid yellow;
+  width: 25%;
+  float: right;
+}
+/* .card-box{
+  width: Calc(100% / 3);
+  float: left;
+  height: 500px;
+} */
+
+.box-img{
+  border: 1px solid red;
+  width: Calc(100% / 2);
+  display: inline-block;
+  float: left;
+}
+.box-img img{
+  border: 1px solid green;
+  max-height: 50%;
+  padding: 0;
+  width: 150px;
+  height: 150px;
+}
+#designit {
+  background-color: #98cd90;
+  border: 10px solid #cae5c6;
+  filter:invert(1);
+}
+#arizona {
+  color: white;
+  background-color: #560926;
+  filter:invert(1);
+}
+#florida {
+  color: white;
+  background-color: #0088c7;
+  filter:invert(1);
+}
+#topps {
+  color: white;
+  background-color: #ff191b;
+  
+}
+
+
+
+
+
 
 /* **************************** */
 
